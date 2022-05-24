@@ -1,0 +1,7 @@
+.idea
+workspace.code-workspace
+*.code-workspace
+*.pbo
+debug.log
+.vscode
+.history

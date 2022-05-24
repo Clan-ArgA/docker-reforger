@@ -1,16 +1,16 @@
 {
 	"dedicatedServerId": "",
-	"region": "EU",
+	"region": "US",
 	"adminPassword": "",
 	"gameHostBindAddress": "",
 	"gameHostBindPort": 2001,
 	"gameHostRegisterBindAddress": "",
 	"gameHostRegisterPort": 2001,
 	"game": {
-		"name": "Arma Reforger Docker Server",
+		"name": "Arma Reforger ArgA Server",
 		"password": "",
 		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
-		"playerCountLimit": 32,
+		"playerCountLimit": 127,
 		"autoJoinable": false,
 		"visible": true,
 		"gameProperties": {
@@ -19,7 +19,7 @@
 			"networkViewDistance": 1000,
 			"disableThirdPerson": true,
 			"fastValidation": true,
-			"battlEye": true,
+			"battlEye": false,
 			"missionHeader": {
 				"m_iPlayerCount": 40,
 				"m_eEditableGameFlags": 6,
@@ -27,5 +27,7 @@
 			}
 		},
 		"mods": []
-	}
+	},
+	"a2sQueryEnabled": true,
+	"steamQueryPort": 17777
 }
