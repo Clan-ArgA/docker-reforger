@@ -1,18 +1,21 @@
 {
-	"dedicatedServerId": "",
-	"region": "US",
-	"adminPassword": "",
-	"gameHostBindAddress": "",
-	"gameHostBindPort": 2001,
-	"gameHostRegisterBindAddress": "",
-	"gameHostRegisterPort": 2001,
+	"bindAddress": "",
+	"bindPort": 2001,
+	"publicAddress": "",
+	"publicPort": 2001,
+	"a2s": null,
 	"game": {
 		"name": "Arma Reforger ArgA Server",
 		"password": "",
+		"passwordAdmin": "",
 		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
 		"playerCountLimit": 127,
 		"autoJoinable": false,
 		"visible": true,
+		"supportedPlatforms": [
+			"PLATFORM_PC",
+			"PLATFORM_XBL"
+		],
 		"gameProperties": {
 			"serverMaxViewDistance": 2500,
 			"serverMinGrassDistance": 50,
@@ -27,7 +30,5 @@
 			}
 		},
 		"mods": []
-	},
-	"a2sQueryEnabled": true,
-	"steamQueryPort": 17777
+	}
 }
